@@ -1,0 +1,91 @@
+\documentclass{ctexart}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+
+\newenvironment{question}[5]{%
+	\noindent\textbf{题型：}#1\\
+	\textbf{主题：}#2\\
+	\textbf{难度：}#3\\
+	\textbf{题目：}#4\\
+	\textbf{解析：}#5\\
+	\vspace{1em}
+}{}
+
+\begin{document}
+	\begin{question}
+		{选择题}
+		{行列式}
+		{容易}
+		{$\begin{vmatrix}1 & 2  \\ 3 & 4   \end{vmatrix}=(\quad).$
+			A. $-2$\quad B. $2$\quad C. $-5$\quad D. $5$}
+		{A}
+	\end{question}
+	
+	\begin{question}
+		{选择题}
+		{行列式}
+		{容易}
+		{$\begin{vmatrix}1 & 2 \\ 0 & 1\end{vmatrix} = $(\quad\quad).
+			A. $1$ \quad  B. $2$ \quad  C. $-1$  \quad D. $0$}
+		{A}
+	\end{question}
+	
+	\begin{question}
+		{选择题}
+		{行列式}
+		{容易}
+		{$\begin{vmatrix}2 & -1 \\ 4 & 3 \end{vmatrix}=(\quad).$ A. $2$ \quad B. $-4$ \quad C. $-8$ \quad D. $10$}
+		{D}
+	\end{question}
+	
+	\begin{question}
+		{选择题}
+		{行列式}
+		{容易}
+		{设 $A$ 是一个 $n \times n$ 的方阵，若 $A$ 的某一行（或列）全为零，则 $\left| A \right|=(\quad).$ 
+			A. $1$ \quad B. $-1$ \quad C. $0$ \quad D. $n$  }
+		{C}
+	\end{question}
+	
+	\begin{question}
+		{选择题}
+		{行列式}
+		{容易}
+		{设 $A$ 是一个 $n \times n$ 的方阵，若 $A$ 的两行互换，则 $ A $ 的行列式 $(\quad).$
+			A. 不变 \quad B. 变号 \quad C. 变为 $0$ \quad D. 变为 $n$ 倍  }
+		{B}
+	\end{question}
+	
+	\begin{question}
+		{填空题}
+		{单位矩阵}
+		{中等}
+		{$ n $ 阶单位矩阵的行列式值为(\quad\quad\quad).}
+		{行列式 $ \det(I_n) = 1 $。}
+	\end{question}
+	
+	\begin{question}
+		{判断题}
+		{单位矩阵}
+		{中等}
+		{$ 2 $ 阶阵的行列式值为0.}
+		{错误}
+	\end{question}
+	
+	\begin{question}
+		{计算题}
+		{方程组的解}
+		{困难}
+		{$ n $ 阶单位矩阵的与方程组的解的关系}
+		{34}
+	\end{question}
+	
+	\begin{question}
+		{证明题}
+		{可逆矩阵}
+		{困难}
+		{证明：若 $ A $ 可逆，则 $ A^T $ 也可逆，并且 $ (A^T)^{-1} = (A^{-1})^T $。}
+		{因为 $ A A^{-1} = I $，两边取转置得 $ (A^{-1})^T A^T = I $，说明 $ A^T $ 可逆，逆为 $ (A^{-1})^T $。}
+	\end{question}
+\end{document}

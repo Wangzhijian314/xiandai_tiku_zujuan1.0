@@ -1,0 +1,65 @@
+[
+  {
+    "type": "选择题",
+    "topic": "行列式",
+    "nandu": "容易",
+    "content": "\\(\\begin{vmatrix}1 & 2  \\\\ 3 & 4   \\end{vmatrix}=(&nbsp;).\\)\n   A. \\(-2\\)&nbsp; B. \\(2\\)&nbsp; C. \\(-5\\)&nbsp; D. \\(5\\)",
+    "explanation": "A"
+  },
+  {
+    "type": "选择题",
+    "topic": "行列式",
+    "nandu": "容易",
+    "content": "\\(\\begin{vmatrix}1 & 2 \\\\ 0 & 1\\end{vmatrix} = \\)(&nbsp;&nbsp;).\n   A. \\(1\\) &nbsp;  B. \\(2\\) &nbsp;  C. \\(-1\\)  &nbsp; D. \\(0\\)",
+    "explanation": "A"
+  },
+  {
+    "type": "选择题",
+    "topic": "行列式",
+    "nandu": "容易",
+    "content": "\\(\\begin{vmatrix}2 & -1 \\\\ 4 & 3 \\end{vmatrix}=(&nbsp;).\\) A. \\(2\\) &nbsp; B. \\(-4\\) &nbsp; C. \\(-8\\) &nbsp; D. \\(10\\)",
+    "explanation": "D"
+  },
+  {
+    "type": "选择题",
+    "topic": "行列式",
+    "nandu": "容易",
+    "content": "设 \\(A\\) 是一个 \\(n \\times n\\) 的方阵，若 \\(A\\) 的某一行（或列）全为零，则 \\(\\left| A \\right|=(&nbsp;).\\) \n   A. \\(1\\) &nbsp; B. \\(-1\\) &nbsp; C. \\(0\\) &nbsp; D. \\(n\\)",
+    "explanation": "C"
+  },
+  {
+    "type": "选择题",
+    "topic": "行列式",
+    "nandu": "容易",
+    "content": "设 \\(A\\) 是一个 \\(n \\times n\\) 的方阵，若 \\(A\\) 的两行互换，则 \\( A \\) 的行列式 \\((&nbsp;).\\)\n   A. 不变 &nbsp; B. 变号 &nbsp; C. 变为 \\(0\\) &nbsp; D. 变为 \\(n\\) 倍",
+    "explanation": "B"
+  },
+  {
+    "type": "填空题",
+    "topic": "线性方程组",
+    "nandu": "中等",
+    "content": "\\( n \\) 阶单位矩阵的行列式值为(&nbsp;&nbsp;&nbsp;).",
+    "explanation": "行列式 \\( \\det(I_n) = 1 \\)。"
+  },
+  {
+    "type": "判断题",
+    "topic": "矩阵",
+    "nandu": "中等",
+    "content": "\\( 2 \\) 阶阵的行列式值为0.",
+    "explanation": "错误"
+  },
+  {
+    "type": "计算题",
+    "topic": "线性方程组",
+    "nandu": "困难",
+    "content": "\\( n \\) 阶单位矩阵的与方程组的解的关系",
+    "explanation": "34"
+  },
+  {
+    "type": "证明题",
+    "topic": "矩阵",
+    "nandu": "困难",
+    "content": "证明：若 \\( A \\) 可逆，则 \\( A^T \\) 也可逆，并且 \\( (A^T)^{-1} = (A^{-1})^T \\)。",
+    "explanation": "因为 \\( A A^{-1} = I \\)，两边取转置得 \\( (A^{-1})^T A^T = I \\)，说明 \\( A^T \\) 可逆，逆为 \\( (A^{-1})^T \\)。"
+  }
+]
